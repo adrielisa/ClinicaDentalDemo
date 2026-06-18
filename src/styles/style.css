@@ -79,24 +79,45 @@ section h2 {
 
 /* Hero Section */
 .hero {
-  background: url('/img/hero-bg.webp') center right / cover no-repeat;
+  position: relative;
+  background: url('/img/hero-bg.webp') center center / cover no-repeat;
+}
+
+/* Dark overlay to guarantee text contrast over the photo */
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 20, 45, 0.82) 0%,
+    rgba(0, 20, 45, 0.65) 45%,
+    rgba(0, 20, 45, 0.25) 100%
+  );
+  z-index: 0;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 1;
 }
 
 .hero h1,
 .hero h3,
 .hero p,
 .hero .btn {
-  color: #003366 !important;
+  color: #ffffff !important;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.45);
 }
 
 .hero .btn {
-  border: 2px solid #003366 !important;
+  border: 2px solid #ffffff !important;
 }
 
 .hero .btn:hover {
-  background-color: #003366;
-  color: #fff !important;
-  border: 2px solid #003366 !important;
+  background-color: #ffffff;
+  color: #003366 !important;
+  border: 2px solid #ffffff !important;
 }
 
 /* Counter Cards */
