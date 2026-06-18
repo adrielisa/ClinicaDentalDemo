@@ -34,14 +34,14 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>DentalClinic – Free Next.js Template for Dentists & Clinics</title>
+        <title>Clínica Dental – Tu Sonrisa, Nuestro Compromiso</title>
         <meta
           name="description"
-          content="Free Next.js Template for Dentists, Clinics & Doctors – Built with Bootstrap"
+          content="Clínica dental con atención personalizada, tecnología moderna y un equipo de profesionales comprometido con tu salud bucodental y tu sonrisa."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="DentalClinic – Free Next.js Template for Dentists & Clinics" />
-        <meta property="og:description" content="Free Next.js Template for Dentists, Clinics & Doctors – Built with Bootstrap" />
+        <meta property="og:title" content="Clínica Dental – Tu Sonrisa, Nuestro Compromiso" />
+        <meta property="og:description" content="Clínica dental con atención personalizada, tecnología moderna y un equipo de profesionales comprometido con tu salud bucodental y tu sonrisa." />
       </Head>
       <Layout>
         <ThemeProvider>

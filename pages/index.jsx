@@ -9,10 +9,10 @@ const Home = () => (
   <Fragment>
     <PageProgress />
     <Head>
-      <title>DentalClinic – Free Next.js Template for Dentists & Clinics</title>
+      <title>Clínica Dental – Tu Sonrisa, Nuestro Compromiso</title>
       <meta
         name="description"
-        content="Free Next.js Medical Template for Dentists, Clinics & Healthcare Professionals – Built with Bootstrap"
+        content="Clínica dental con atención personalizada, tecnología moderna y un equipo de profesionales comprometido con tu salud bucodental y tu sonrisa."
       />
     </Head>
 

@@ -3,17 +3,17 @@ import Image from 'next/image';
 const images = [
   {
     src: '/img/best-dental-hospital.webp',
-    alt: 'Best Dental Hospital in Location | Dental Clinic - SEO Optimized Dental Website Template',
+    alt: 'La Mejor Clínica Dental de la Ciudad',
     className: 'col-md-10 offset-md-2',
   },
   {
     src: '/img/best-dental-hospital-2.webp',
-    alt: 'Best Dental Hospital in Location | Dental Clinic - SEO Optimized Dental Website Template',
+    alt: 'La Mejor Clínica Dental de la Ciudad',
     className: 'col-md-12',
   },
   {
     src: '/img/best-dental-hospital-3.webp',
-    alt: 'Best Dental Hospital in Location | Dental Clinic - SEO Optimized Dental Website Template',
+    alt: 'La Mejor Clínica Dental de la Ciudad',
     className: 'col-md-6',
     single: true,
   },

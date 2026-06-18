@@ -27,7 +27,7 @@ const Navbar = ({
           href="/"
           title={
             <Image
-              alt="Dental Clinic - SEO Optimized Dental Website Template"
+              alt="Clínica Dental"
               className="py-2"
               src="/img/logo.webp"
               width={150}
@@ -48,7 +48,7 @@ const Navbar = ({
             href="/"
             title={
               <Image
-                alt="Dental Clinic - SEO Optimized Dental Website Template"
+                alt="Clínica Dental"
                 className="py-2"
                 src="/img/logo-light.webp"
                 width={150}
@@ -68,14 +68,14 @@ const Navbar = ({
         <div className="offcanvas-body ms-lg-auto d-flex flex-column h-100 offcavas-bg">
           <ul className="navbar-nav">
             <li className="nav-item" data-bs-dismiss="offcanvas">
-              <NextLink href="/" title="Home" className="nav-link" />
+              <NextLink href="/" title="Inicio" className="nav-link" />
             </li>
             <li className="nav-item" data-bs-dismiss="offcanvas">
-              <NextLink href="#" title="About Us" className="nav-link" />
+              <NextLink href="#" title="Sobre Nosotros" className="nav-link" />
             </li>
             <li className="nav-item dropdown">
               <DropdownToggleLink
-                title="Services"
+                title="Servicios"
                 href="#"
                 className="nav-link dropdown-toggle"
               />
@@ -91,17 +91,17 @@ const Navbar = ({
               </ul>
             </li>
             <li className="nav-item" data-bs-dismiss="offcanvas">
-              <NextLink href="#" title="Gallery" className="nav-link" />
+              <NextLink href="#" title="Galería" className="nav-link" />
             </li>
             <li className="nav-item" data-bs-dismiss="offcanvas">
-              <NextLink href="#" title="Contact Us" className="nav-link" />
+              <NextLink href="#" title="Contáctanos" className="nav-link" />
             </li>
             <li
               className="nav-item align-items-center d-flex mt-2 mt-lg-0 ms-lg-4 merriweather"
               data-bs-dismiss="offcanvas"
             >
               <NextLink
-                title="Book Appointment"
+                title="Reservar Cita"
                 href="#"
                 className="btn btn-sm bg-color text-white mb-lg-1 rounded border-0"
               />

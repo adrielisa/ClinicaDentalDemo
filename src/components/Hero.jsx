@@ -17,28 +17,28 @@ const Hero = () => {
               >
                 <h3
                   className="merriweather fs-24 text-white animate__animated animate__slideInDown animate__delay-1s"
-                  aria-label="10 Years of Dental Excellence"
+                  aria-label="10 Años de Excelencia Dental"
                 >
-                  10 Years of Dental Excellence
+                  10 Años de Excelencia Dental
                 </h3>
                 <h1
                   className="merriweather fs-48 mb-4 text-white animate__animated animate__slideInDown animate__delay-2s"
-                  aria-label="Main heading: Your Smile, Our Commitment"
+                  aria-label="Título principal: Tu Sonrisa, Nuestro Compromiso"
                 >
-                  Your Smile, Our Commitment
+                  Tu Sonrisa, Nuestro Compromiso
                 </h1>
                 <p
                   className="lato lead fs-18 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-3s"
-                  aria-label="Supporting text"
+                  aria-label="Texto de apoyo"
                 >
-                  Discover the difference exceptional dentistry makes with Dental Clinic — an SEO-optimized dental website template.
+                  Descubre la diferencia que marca una odontología excepcional con Clínica Dental, donde cuidamos de ti y de tu sonrisa.
                 </p>
                 <div className="animate__animated animate__slideInUp animate__delay-3s merriweather">
                   <NextLink
-                    title="Book Appointment"
+                    title="Reservar Cita"
                     href="#"
                     className="btn btn-lg rounded"
-                    aria-label="Book an appointment"
+                    aria-label="Reservar una cita"
                   />
                 </div>
               </div>

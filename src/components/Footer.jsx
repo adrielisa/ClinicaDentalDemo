@@ -41,36 +41,36 @@ const Footer = () => {
               <div className="mb-5">
                 <Image
                   src="/img/logo-light.webp"
-                  alt="Dental Clinic Logo"
+                  alt="Logo Clínica Dental"
                   width={200}
                   height={100}
                   className="text-center"
                 />
               </div>
               <p className="lead mb-5 fs-18 text-white lato text-justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quas ratione odit, iste minima, debitis aliquam asperiores ab accusantium error.
+                Cuidamos de tu salud bucodental con atención personalizada, tecnología moderna y un equipo de profesionales comprometido con tu sonrisa.
               </p>
-              <h3 className="fs-24 text-white merriweather">Follow Us On</h3>
+              <h3 className="fs-24 text-white merriweather">Síguenos En</h3>
               <SocialLinks className="nav social text-md-end" />
             </div>
           </div>
 
           {/* Services + Useful Links */}
           <div className="col-sm-6 col-md-4 col-lg-2 mt-md-5 mt-lg-0 mt-10 text-white">
-            {renderWidget(services, 'Services')}
+            {renderWidget(services, 'Servicios')}
           </div>
           <div className="col-sm-6 col-md-4 col-lg-2 mt-md-5 mt-lg-0 mt-10 text-white">
-            {renderWidget(usefulLinks, 'Useful Links')}
+            {renderWidget(usefulLinks, 'Enlaces Útiles')}
           </div>
 
           {/* Contact Info */}
           <div className="col-md-4 col-lg-3 mt-md-5 mt-lg-0 mt-10">
             <div className="widget">
-              <h3 className="widget-title fs-24 mb-3 merriweather">Contact Us</h3>
+              <h3 className="widget-title fs-24 mb-3 merriweather">Contáctanos</h3>
               <div className="d-flex mb-3">
                 <i className="uil uil-location-pin-alt fs-30 text-white" />
                 <address className="ms-2 text-white lato">
-                  123 Main Street, Springfield, IL 62704, United States
+                  Calle Principal 123, 28013 Madrid, España
                 </address>
               </div>
               <div className="d-flex mb-3 align-items-center">
@@ -93,7 +93,7 @@ const Footer = () => {
 
         <div className="d-md-flex align-items-center justify-content-center">
           <p className="mb-2 mb-lg-0 text-white lato text-center">
-            © {currentYear} Dental Clinic - SEO Optimized Dental Website Template. All rights reserved.
+            © {currentYear} Clínica Dental. Todos los derechos reservados.
           </p>
         </div>
       </div>

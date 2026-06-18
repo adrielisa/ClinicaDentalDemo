@@ -39,7 +39,7 @@ const Services = () => {
             <h3 className="fs-24 text-white mb-1 mt-n2">
               <CountUp end={25} suffix="K+" />
             </h3>
-            <p className="fs-18 merriweather">Patients Treated</p>
+            <p className="fs-18 merriweather">Pacientes Atendidos</p>
           </div>
           <Tiles />
         </div>
@@ -51,7 +51,7 @@ const Services = () => {
             style={{ width: `${h2Width}px` }}
           >
             <h3 className="fs-18 fw-bold text-second merriweather mb-0 me-3">
-              Dental Clinic
+              Clínica Dental
             </h3>
             <div
               style={{
@@ -63,11 +63,11 @@ const Services = () => {
           </div>
 
           <h2 className="fs-38 mb-5 merriweather d-inline" ref={h2Ref}>
-            Best Dental Hospital in Location
+            La Mejor Clínica Dental de la Ciudad
           </h2>
 
           <p className="mb-5 fs-18 text-justify lato">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quas ratione odit, iste minima, debitis aliquam asperiores ab accusantium error, possimus magni dolore incidunt illo esse? Id recusandae qui velit rerum a eum fugit! Iste, quia. Beatae esse distinctio modi aperiam! Culpa recusandae aut, nam perspiciatis officia veniam modi esse? Reprehenderit exercitationem ipsa iste quam, molestiae ipsum pariatur! Quia ex facere delectus, libero consequatur laboriosam placeat unde alias. Tempore omnis, porro amet quam placeat architecto atque numquam. Nobis doloribus est, consectetur libero quae facere ex exercitationem cum praesentium, temporibus voluptatum beatae magni nostrum quo magnam, voluptate reprehenderit facilis a accusantium!
+            En nuestra clínica dental combinamos experiencia, tecnología de última generación y un trato cercano para ofrecerte la mejor atención. Nuestro equipo de profesionales se dedica a cuidar tu salud bucodental con tratamientos personalizados y resultados que cuidan tu sonrisa. Desde una limpieza de rutina hasta tratamientos especializados como implantes, ortodoncia o blanqueamiento, ponemos a tu disposición todo lo necesario para que vivas una experiencia cómoda y de confianza. Tu bienestar y tu sonrisa son nuestra prioridad, y trabajamos cada día para superar tus expectativas con un servicio de calidad y profesionalismo.
           </p>
 
           <ListColumn list={aboutList1} />

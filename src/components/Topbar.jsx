@@ -29,7 +29,7 @@ const Topbar = () => {
         <div className="row justify-content-between align-items-center">
           <div className="col-lg-6 d-none d-xl-flex">
             <p className="m-0 text-white lato">
-              Opening Time: &nbsp; Monday To Saturday - (10am to 2pm & 5pm to 8pm)
+              Horario: &nbsp; Lunes a Sábado - (10:00 a 14:00 y 17:00 a 20:00)
             </p>
           </div>
 
