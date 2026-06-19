@@ -100,11 +100,14 @@ const Navbar = ({
               className="nav-item align-items-center d-flex mt-2 mt-lg-0 ms-lg-4 merriweather"
               data-bs-dismiss="offcanvas"
             >
-              <NextLink
-                title="Reservar Cita"
+              <a
+                id="agendar-cita"
                 href="#"
+                role="button"
                 className="btn btn-sm bg-color text-white mb-lg-1 rounded border-0"
-              />
+              >
+                Reservar Cita
+              </a>
             </li>
           </ul>
 
