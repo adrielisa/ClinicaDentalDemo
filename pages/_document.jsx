@@ -22,6 +22,11 @@ export default class SandBox extends Document {
         <body>
           <Main />
           <NextScript />
+          <script
+            src="https://suite.upnify.com/addons/js/suite.min.js?tke=E-41E62DBF-8F32-4AA5-BF3E-7FBE547D2C9F&tki=P02B90071A9-5911-47E9-A6E5-3D7C7563474A"
+            id="upnifyWAOS"
+            defer
+          />
         </body>
       </Html>
     );
